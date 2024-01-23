@@ -1,0 +1,23 @@
+@import url("css/main.css");
+:root {
+    --cor-fundo: #F3F5FC;
+    --cor-titulo: #343A40;
+    --cor-paragrafo: #495057; 
+    --cor-fundo-botao1: #0A3871;
+    --cor-fundo-botao2: #D8DFE8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-size: 16px;
+    color: var(--cor-paragrafo);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--cor-titulo)
+}

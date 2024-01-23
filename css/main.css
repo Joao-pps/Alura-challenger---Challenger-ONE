@@ -1,0 +1,19 @@
+.main {
+    display: grid;
+    grid-template-areas: 
+    "area1 area1 area1 area2"
+    "area1 area1 area1 area2";
+    padding: 2em;
+}
+
+.area1 {
+    grid-area: area1;
+}
+
+.area2 {
+    grid-area: area2;
+}
+
+.cabecalho {
+    padding: 1em;
+}
